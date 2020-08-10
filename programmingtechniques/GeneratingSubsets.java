@@ -12,6 +12,8 @@ public class GeneratingSubsets {
         Scanner in = new Scanner(System.in);
         n = Integer.parseInt(in.nextLine());
         search(1);
+
+        in.close();
     }
 
     static void search(int k) {

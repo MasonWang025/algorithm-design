@@ -9,4 +9,4 @@ Note: all book implementations are in C++.
 - Recursive Algorithms
   - [Generating subsets](programmingtechniques/GeneratingSubsets.java)
   - [Generating permutations](programmingtechniques/GeneratingPermutations.java)
-
+  - [Counting # of ways to place n queens on an nxn chessboard](programmingtechniques/CountQueenCombos.java)

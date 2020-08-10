@@ -3,7 +3,7 @@ package programmingtechniques;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class GeneratingPermuations {
+public class GeneratingPermutations {
     static int n;
     static ArrayList<Integer> permutation = new ArrayList<>();
     static boolean[] chosen;

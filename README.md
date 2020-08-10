@@ -8,4 +8,5 @@ Note: all book implementations are in C++.
 ### Programming Techniques
 - Recursive Algorithms
   - [Generating subsets](programmingtechniques/GeneratingSubsets.java)
+  - [Generating permutations](programmingtechniques/GeneratingPermutations.java)
 

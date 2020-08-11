@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GeneratingPermutations {
-    static int n;
-    static ArrayList<Integer> permutation = new ArrayList<>();
-    static boolean[] chosen;
+    private static int n;
+    private static ArrayList<Integer> permutation = new ArrayList<>();
+    private static boolean[] chosen;
 
     public static void main(String[] args) {
         // generate all subsets of n elements
@@ -18,7 +18,7 @@ public class GeneratingPermutations {
         in.close();
     }
 
-    static void search() {
+    private static void search() {
         // DFS; each call appends to permutation and marks as chosen
         if (permutation.size() == n) {
             // permutation has been created
